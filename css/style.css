@@ -1,0 +1,40 @@
+/* Main Settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+:root {
+    --gradienttitle: linear-gradient(to right,#0DB3AC ,#91CC74 , #E6210B,#FF9D05 );
+    --gradientbackground: linear-gradient(black, rgb(45, 44, 44), rgb(72, 72, 72));
+  }
+
+/* Style */
+body {
+    border-color: white;
+    font-family: 'Roboto Condensed';
+    height: 100vh;
+    background-image: var(--gradientbackground);
+
+    display: grid;
+    place-content: center;
+}
+.title {
+    font-size: 7vw;
+    color: transparent;
+    background-image: var(--gradienttitle);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.content {
+    box-shadow:  rgb(255, 255, 255) 0px 0px 0px;
+    padding: 4rem 4rem 1.5rem 4rem;
+    border-bottom: 10px solid white;
+    border-image:  var(--gradienttitle) 1; 
+}
+
+.content img {
+    padding-left: 20px;
+    height: 1.2em;
+    width: auto;
+}
