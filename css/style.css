@@ -29,7 +29,7 @@ body {
 .content {
     box-shadow:  rgb(255, 255, 255) 0px 0px 0px;
     padding: 4rem 4rem 1.5rem 4rem;
-    border-bottom: 10px solid white;
+    border-bottom: 1vh solid white;
     border-image:  var(--gradienttitle) 1; 
 }
 
